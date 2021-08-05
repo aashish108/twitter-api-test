@@ -2,7 +2,7 @@
 
 Just playing around with Twitter API and Redis. You have to have a Redis server already running at `127.0.0.1:6379`.
 
-# Setup
+## Setup
 
 1. Make sure Node 16 is installed
 1. `npm i`
