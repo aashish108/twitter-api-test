@@ -9,8 +9,6 @@ config();
 
 let client = redis.createClient();
 
-// const getAsync = promisify(client.get).bind(client);
-
 client.on('connect', function() {
   console.log('Connected to Redis!');
 });
