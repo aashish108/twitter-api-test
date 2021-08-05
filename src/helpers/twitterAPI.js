@@ -13,7 +13,7 @@ const T = new twit({
 })
 
 const search = async (searchTerm) => {
-  const twitterResponse = await T.get('search/tweets', { q: '#${searchTerm}', count: 1 });
+  const twitterResponse = await T.get('search/tweets', { q: `#${searchTerm}`, count: 100 });
   return twitterResponse.data.statuses;
 };
 
