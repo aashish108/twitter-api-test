@@ -5,7 +5,7 @@ Just playing around with Twitter API and Redis. You have to have a Redis server 
 ## .env
 
 Create the below .env file in root with your Twitter API credentials:
- 
+
 ```JS
 API=
 API_SECRET=
