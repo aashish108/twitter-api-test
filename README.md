@@ -5,8 +5,8 @@ Just playing around with Twitter API and Redis. You have to have a Redis server 
 ## Setup
 
 1. Make sure Node 16 is installed
-1. `npm i`
-1. `node index.js` from root of project folder
+1. `npm i` inside root of project folder
+1. `node index.js` from root of project folder to start the server
 
 ## .env
 
